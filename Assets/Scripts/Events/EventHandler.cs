@@ -15,7 +15,7 @@ public static class EventHandler
     // Movement Event Call for Publishera
 
     public static void CallMovementEvent(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
-    ToolEffect tooleffect,
+    ToolEffect toolEffect,
       bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
       bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
       bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
@@ -25,7 +25,7 @@ public static class EventHandler
         if (MovementEvent != null)
             MovementEvent(inputX, inputY,  
                 isWalking, isRunning, isIdle, isCarrying,
-                tooleffect,
+                toolEffect,
                 isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
                 isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
                 isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
